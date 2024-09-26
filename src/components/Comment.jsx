@@ -9,7 +9,7 @@ export function Comment() {
         <div className={styles.commentContent}>
           <header>
             <div className={styles.authorAndTime}>
-              <strong>Wesley Carvalho</strong>
+              <strong>Matheus dos Santos</strong>
               <time
                 title="17 de setembro às 08:00"
                 dateTime="2024-09-17 08:00:00"
@@ -20,7 +20,7 @@ export function Comment() {
             </div>
 
             <button title="Deletar comentário">
-              <Trash size={20} />
+              <Trash size={24} />
             </button>
           </header>
           <p>Muito bom, parabéns!</p>
